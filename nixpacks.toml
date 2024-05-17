@@ -1,6 +1,6 @@
 providers = ["python"]
 
-[phase.install]
+[install]
 cmd = "pip install poetry && poetry install"
   
 [start]
