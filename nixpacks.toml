@@ -4,4 +4,4 @@ providers = ["python"]
 cmds = ["pip install poetry", "poetry install"]
 
 [start]
-cmds = ["peotry shell", "$> python run.py"]
+cmd = "python run.py"
