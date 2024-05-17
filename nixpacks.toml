@@ -1,7 +1,4 @@
 providers = ["python"]
 
-[phases.build]
-cmds = ["pip install poetry", "poetry install"]
-
 [start]
 cmd = "python run.py"
