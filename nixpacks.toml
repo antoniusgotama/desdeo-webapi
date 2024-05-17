@@ -4,4 +4,4 @@ providers = ["python"]
 cmd = "pip install poetry && poetry install"
   
 [start]
-cmd = "pip install poetry && poetry install && poetry shell && python run.py"
+cmd = "pip install poetry && poetry lock --no-update && poetry install && poetry shell && python run.py"
